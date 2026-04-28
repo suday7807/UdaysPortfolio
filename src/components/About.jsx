@@ -13,19 +13,20 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sint
-          nemo fuga inventore suscipit ea animi ducimus, ad asperiores aut
-          voluptatibus nesciunt at odit? Deserunt iste eveniet facere qui animi
-          ipsum tempore unde vitae!
+          I'm a Backend Developer with 2+ years of experience designing and
+          maintaining scalable backend systems using Node.js, Express.js,
+          MongoDB, and Redis. I specialize in REST API development, JWT-based
+          authentication & authorization, performance optimization, and
+          production monitoring.
         </p>
         <br />
         <p className="text-xl mt-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
-          vitae quam reiciendis vero cum repudiandae soluta non placeat quod
-          dolorum autem quae aperiam earum quaerat, dolores voluptatum
-          blanditiis, quos necessitatibus pariatur fuga nulla veniam. Minima
-          libero, illo tempora quas at laboriosam fugit reiciendis iure maiores
-          quis, beatae doloremque. Et, deleniti.
+          At Choira Pvt. Ltd., I've built and maintained 20+ production-grade
+          RESTful APIs, improved response times by ~35–40% using Redis caching,
+          and optimized MongoDB queries including geospatial nearby search. I
+          enjoy owning features independently from planning to deployment, and
+          I'm currently expanding my skills in Docker, AWS, and AI-integrated
+          backend workflows using the OpenAI API, Claude API, and MCP.
         </p>
       </div>
     </div>

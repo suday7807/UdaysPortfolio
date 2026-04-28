@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/uday-singh-baa578140?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       style: "rounded-tr-md",
     },
     {
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Uday_Singh_Cv(3).pdf",
+      href: "/Uday_Singh_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },

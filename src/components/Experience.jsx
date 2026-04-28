@@ -1,70 +1,107 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
+// import html from "../assets/html.png";
+// import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+// import nextjs from "../assets/nextjs.png";
+// import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import angular from "../assets/angular.png";
+import node from "../assets/node.png";
+import express from "../assets/Express.svg";
+import nest from "../assets/Nest.png";
+import typescript from "../assets/TypeScript.png";
+import aws from "../assets/AWS.png";
+import postgres from "../assets/PostgresSQL.png";
+import claude from "../assets/claude-color.png";
+import mongodb from "../assets/MongoDB.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
       src: javascript,
       title: "JAVASCRIPT",
       style: "shadow-yellow-500",
     },
     {
+      id: 2,
+      src: node,
+      title: "NODE JS",
+      style: "shadow-green-500",
+    },
+    {
+      id: 3,
+      src: express,
+      title: "EXPRESS JS"  ,
+      style: "shadow-gray-500",
+    },
+    {
       id: 4,
+      src: nest,
+      title: "NEST JS",
+      style: "shadow-red-500",
+    },
+    {
+      id: 5,
+      src: typescript,
+      title: "TYPESCRIPT",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 6,
+      src: claude,
+      title: "CLAUDE CODE",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 7,
       src: reactImage,
       title: "REACT",
       style: "shadow-blue-500",
     },
     {
-      id: 5,
+      id: 8,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-500",
     },
-    // {
-    //   id: 6,
-    //   src: nextjs,
-    //   title: "Next JS",
-    //   style: "shadow-white",
+        {
+      id: 9,
+      src: mongodb,
+      title: "MONGO DB",
+      style: "shadow-green-500",
+    },
+    //     {
+    //   id: 3,
+    //   src: html,
+    //   title: "HTML",
+    //   style: "shadow-orange-500",
     // },
     // {
-    //   id: 7,
-    //   src: graphql,
-    //   title: "GraphQL",
-    //   style: "shadow-pink-400",
+    //   id: 2,
+    //   src: css,
+    //   title: "CSS",
+    //   style: "shadow-blue-500",
     // },
     {
-      id: 8,
+      id: 10,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
-      src: angular,
-      title: "Angular",
-      style: "shadow-red-400",
+      id: 11,
+      src: aws,
+      title: "AWS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 12,
+      src: postgres,
+      title: "POSTGRES",
+      style: "shadow-gray-400",
     },
   ];
 
