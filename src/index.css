@@ -13,3 +13,26 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+.typewriter-cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: #06b6d4;
+  animation: blinkCaret 0.75s step-end infinite;
+}
+
+@keyframes blinkCaret {
+  0%, 100% { opacity: 0; }
+  50%       { opacity: 1; }
+}
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.section-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

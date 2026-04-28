@@ -23,6 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/suday7807",
+      style: "",
     },
     {
       id: 3,
@@ -32,6 +33,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:suday7807@gmail.com",
+      style: "",
     },
     {
       id: 4,
@@ -47,16 +49,12 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed z-40">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
-            className={
-              "flex justify-between items-center bg-gray-500 w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 " +
-              "" +
-              style
-            }
+            className={`flex justify-between items-center bg-gray-500 w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 ${style}`}
           >
             <a
               href={href}
